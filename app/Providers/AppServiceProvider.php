@@ -14,8 +14,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        if ( \DB::getDriverName() == 'sqlite' ) {
-            \DB::statement('PRAGMA foreign_keys=1');
+        try {
+            if ( \DB::getDriverName() == 'sqlite' ) {
+                \DB::statement('PRAGMA foreign_keys=1');
+            }
+        } catch (\PDOException $e) {
+            // Ignore the exception
+            // Because DB may not yet been set up.
         }
     }
 
