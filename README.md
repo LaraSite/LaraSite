@@ -12,7 +12,6 @@ Simple CMS on Laravel framework
 ```
 $ composer create-project larasite/larasite path/to/install
 $ cd path/to/install
-$ composer install
 ```
 
 ## # Configration
@@ -56,12 +55,22 @@ config/app.php
 'locale' => 'ja',
 ```
 
+config/auth_user.php
+```
+return [
+    'users' => [
+        'admin' => 'admin123',
+    ],
+];
+```
+
 ## Setup Database
-SQLite.
+If you use SQLite...
 ```
 $ touch strage/database.sqlite
 ```
 
+Migration
 ```
 $ php artisan migrate
 ```
