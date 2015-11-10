@@ -1,0 +1,173 @@
+body { padding-top: 70px; }
+
+h1.title {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+tr.disabled {
+  color: gray !important;
+  background-color: lightgray !important;
+}
+
+/* spacer */
+.spacer {
+  margin-top: 5px;
+}
+.spacer10 {
+  margin-top: 10px;
+}
+.spacer15 {
+  margin-top: 15px;
+}
+.spacer20 {
+  margin-top: 20px;
+}
+.spacer25 {
+  margin-top: 25px;
+}
+.spacer30 {
+  margin-top: 30px;
+}
+.spacer35 {
+  margin-top: 35px;
+}
+.spacer40 {
+  margin-top: 40px;
+}
+.spacer45 {
+  margin-top: 45px;
+}
+.spacer50 {
+  margin-top: 50px;
+}
+
+/* youtube */
+.video-wrap {
+  position: relative;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  padding-top: 69px;
+  padding-bottom: 50%;
+  overflow: hidden;
+}
+.video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* layout */
+body {
+  padding-top: 70px;
+}
+
+.wrapper {
+  margin: 30px 0;
+}
+
+/* header */
+header {
+  background-color: #f4645f;
+  padding: 30px 0;
+  margin-top: -20px;
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0 0 15px 0;
+}
+
+header p {
+  margin-bottom: 10px;
+}
+
+/* footer */
+.footer {
+  margin-top: 30px;
+  padding: 20px 0 10px;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+  color: #ffffff;
+  background-color: #f4645f;
+}
+
+/* #home */
+#home header {
+  text-align: center;
+  padding: 80px;
+}
+#home header h1 {
+  font-size: 40px;
+}
+#home .feature {
+  text-align: center;
+}
+#home .feature .glyphicon {
+  margin: 20px 0;
+  font-size: 64px;
+}
+#home .feature h2 {
+  margin-bottom: 20px;
+}
+#home .feature p {
+  margin-bottom: 40px;
+}
+
+/* admin */
+.paginatorCounter {
+  opacity: 1.0 !important;
+}
+.deleteColumn {
+  width: 64px;
+}
+
+/* #adminUsersLogin */
+#adminUsersLogin form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* #adminUploadFilesIndex */
+#adminUploadFilesIndex .thumbnail {
+  margin-bottom: 5px;
+}
+#adminUploadFilesIndex .caption {
+  margin-bottom: 20px;
+}
+#adminUploadFilesIndex .caption .fileName {
+  font-size: 18px;
+}
+#adminUploadFilesIndex .caption .fileMeta {
+  font-weight: normal;
+}
+
+#adminUploadFilesIndex form.dropzone .dz-message {
+  margin: 25px 0;
+  font-size: 24px;
+  color: #555;
+}
+
+/*=============================================================================
+ * Small devices (tablets, 768px and up)
+ *============================================================================*/
+@media (min-width: 768px) {
+  /* header */
+  header h1 {
+    font-size: 32px;
+  }
+
+  /* home */
+  #home header h1 {
+    font-size: 45px;
+  }
+}
+/*=============================================================================
+ * Medium devices (desktops, 992px and up)
+ *============================================================================*/
+/*=============================================================================
+ * Large devices (large desktops, 1200px and up)
+ *============================================================================*/
